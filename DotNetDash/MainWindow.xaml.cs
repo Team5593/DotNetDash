@@ -26,7 +26,7 @@ namespace DotNetDash
                 NetworkTable.Shutdown();
                 NetworkTable.SetIPAddress($"roborio-{Properties.Settings.Default.TeamNumber}-frc.local");
                 NetworkTable.SetClientMode();
-                NetworkTable.AddConnectionListener(SetConnectivityMarker, true);
+                NetworkTable.AddGlobalConnectionListener(SetConnectivityMarker, true);
                 NetworkTable.Initialize();
 
                InitializeDashboard();
@@ -69,7 +69,7 @@ namespace DotNetDash
             //InitializeConnectivityMarker();
         }
 
-        private void SetConnectivityMarker(int uid, bool connected, ConnectionInfo conn)
+        private void SetConnectivityMarker(NetworkTables.Tables.IRemote remote, ConnectionInfo conn, bool connected)
         {
             this.Dispatcher.Invoke(
               delegate
