@@ -17,7 +17,7 @@ namespace DotNetDash
         {
             InitializeComponent();
             LoadCustomControls();
-            if(new RoboRioConnectionWindow().ShowDialog() != true)
+            if(Properties.Settings.Default.TeamNumber == 0 && new RoboRioConnectionWindow().ShowDialog() != true)
             {
                 Close();
             }

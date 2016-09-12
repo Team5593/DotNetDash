@@ -9,8 +9,9 @@
     <XamlPlugin Include="DigitalInput.xaml" />
     <XamlPlugin Include="SendableChooser.xaml" />
     <XamlPlugin Include="Gyro.xaml" />
+	<XamlPlugin Include="Command.xaml" />
   </ItemGroup>
   <Target Name="Build">
-    <Copy SourceFiles="@(XamlPlugin)" DestinationFolder="../bin/$(Configuration)/Plugins/XAML Plugins" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="@(XamlPlugin)" DestinationFolder="../bin/$(Configuration)/Plugins/XAML Plugins" SkipUnchangedFiles="false" />
   </Target>
 </Project>

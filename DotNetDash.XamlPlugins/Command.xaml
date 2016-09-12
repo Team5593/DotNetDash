@@ -1,0 +1,12 @@
+﻿<dash:XamlView
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:dash="clr-namespace:DotNetDash;assembly=DotNetDash"
+            DashboardType="Command">
+    <StackPanel Orientation="Horizontal">
+        <TextBlock Text="{Binding Name}" />
+        <Button Background="LightBlue" BorderBrush="Black" BorderThickness="1" ClickMode="Press">
+            Test
+        </Button>
+    </StackPanel>
+</dash:XamlView>

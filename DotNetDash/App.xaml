@@ -44,7 +44,8 @@
             <Setter Property="ItemsPanel">
                 <Setter.Value>
                     <ItemsPanelTemplate>
-                        <Canvas Focusable="True" />
+                        <!--<Canvas Focusable="True" />-->
+                        <StackPanel Focusable="True" />
                     </ItemsPanelTemplate>
                 </Setter.Value>
             </Setter>
