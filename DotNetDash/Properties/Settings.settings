@@ -2,9 +2,6 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DotNetDash.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="TeamNumber" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">0</Value>
-    </Setting>
     <Setting Name="LastServer" Type="System.String" Scope="User">
       <Value Profile="(Default)">localhost</Value>
     </Setting>
@@ -14,6 +11,9 @@
   &lt;string&gt;SmartDashboard&lt;/string&gt;
   &lt;string&gt;LiveWindow&lt;/string&gt;
 &lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="TeamNumber" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5593</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -25,18 +25,6 @@ namespace DotNetDash.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0")]
-        public int TeamNumber {
-            get {
-                return ((int)(this["TeamNumber"]));
-            }
-            set {
-                this["TeamNumber"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("localhost")]
         public string LastServer {
             get {
@@ -58,6 +46,18 @@ namespace DotNetDash.Properties {
             }
             set {
                 this["RootTables"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("5593")]
+        public int TeamNumber {
+            get {
+                return ((int)(this["TeamNumber"]));
+            }
+            set {
+                this["TeamNumber"] = value;
             }
         }
     }

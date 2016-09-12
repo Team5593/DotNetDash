@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetDash", "DotNetDash\DotNetDash.csproj", "{956D8251-A86B-4A80-8B99-5D356B6ED9FC}"
 EndProject
@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetDash.SpeedController", "DotNetDash.SpeedController\DotNetDash.SpeedController.csproj", "{B49B9A6F-A3ED-4BA9-A5A3-8EA783237DFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team5593.Dashboard.Plugins", "5593.DotNetDash.Plugins\Team5593.Dashboard.Plugins.csproj", "{43B7B5B1-EB6D-4DEC-941A-8C87F4AF867C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +105,18 @@ Global
 		{B49B9A6F-A3ED-4BA9-A5A3-8EA783237DFC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B49B9A6F-A3ED-4BA9-A5A3-8EA783237DFC}.Release|x86.ActiveCfg = Release|Any CPU
 		{B49B9A6F-A3ED-4BA9-A5A3-8EA783237DFC}.Release|x86.Build.0 = Release|Any CPU
+		{43B7B5B1-EB6D-4DEC-941A-8C87F4AF867C}.CoreDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B7B5B1-EB6D-4DEC-941A-8C87F4AF867C}.CoreDebug|Any CPU.Build.0 = Debug|Any CPU
+		{43B7B5B1-EB6D-4DEC-941A-8C87F4AF867C}.CoreDebug|x86.ActiveCfg = Debug|Any CPU
+		{43B7B5B1-EB6D-4DEC-941A-8C87F4AF867C}.CoreDebug|x86.Build.0 = Debug|Any CPU
+		{43B7B5B1-EB6D-4DEC-941A-8C87F4AF867C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B7B5B1-EB6D-4DEC-941A-8C87F4AF867C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B7B5B1-EB6D-4DEC-941A-8C87F4AF867C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{43B7B5B1-EB6D-4DEC-941A-8C87F4AF867C}.Debug|x86.Build.0 = Debug|Any CPU
+		{43B7B5B1-EB6D-4DEC-941A-8C87F4AF867C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B7B5B1-EB6D-4DEC-941A-8C87F4AF867C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43B7B5B1-EB6D-4DEC-941A-8C87F4AF867C}.Release|x86.ActiveCfg = Release|Any CPU
+		{43B7B5B1-EB6D-4DEC-941A-8C87F4AF867C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
