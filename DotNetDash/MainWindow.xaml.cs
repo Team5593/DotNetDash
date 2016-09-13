@@ -67,6 +67,7 @@ namespace DotNetDash
         {
             InitializeTabs();
             //InitializeConnectivityMarker();
+            SetConnectivityMarker(null, new ConnectionInfo(), false);
         }
 
         private void SetConnectivityMarker(NetworkTables.Tables.IRemote remote, ConnectionInfo conn, bool connected)
